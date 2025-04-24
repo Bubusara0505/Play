@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <title>Color Shade Game</title>
+  <title>Color Shade Game Pro</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <div id="message">Выбери другой оттенок</div>
+  <div id="info">
+    <div id="message">Выбери другой оттенок</div>
+    <div>Очки: <span id="score">0</span> | Уровень: <span id="level">1</span> | Время: <span id="timer">30</span> сек</div>
+  </div>
   <div id="game"></div>
-    <script src="./assets/js/main.js"></script>
+
+  <div id="leaderboard">
+    <strong>Топ 5:</strong>
+    <ol id="highscores"></ol>
+  </div>
+
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
